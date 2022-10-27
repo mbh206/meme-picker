@@ -1,6 +1,19 @@
 html, body {
     margin: 0;
     font-family: 'Karla', sans-serif;
+    width:100%;
+}
+
+main {
+
+    min-width: 300px;
+}
+
+@media (max-width: 500px) {
+    body{
+        width:100%;
+    }
+    
 }
 
 /*typography*/
@@ -155,4 +168,15 @@ input[type="radio"]{
     color: white;
     background-color: #bd301d;
     border:none;
+}
+
+@media (max-width: 500px){
+    .meme-modal{
+        max-width: 100%;
+    }
+    .cat-img{
+        margin:auto;
+        height: auto; 
+        width: 100%;
+    }
 }
